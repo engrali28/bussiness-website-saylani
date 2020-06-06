@@ -1,0 +1,87 @@
+.navbar {
+    background-color:#d50000 !important;
+}
+
+.nav-link{
+    color: white !important;
+}
+.fa-shopping-cart, .fa-laptop{
+    font-size: 32px;
+}
+.card1 , .card2 ,.card3 , .card4{
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 10px;  
+    height: auto;  
+    
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    box-shadow: 2px 3px 5px 6px slategray;
+   
+}
+
+.btn-primary{
+    width: 100%;
+    background-color:#d50000!important;
+}
+.fa-truck , .fa-thumbs-up ,.fa-headphones , .fa-users , .fa-shield{
+    font-size: 40px;
+    align-items: center;
+    color:#d50000 ;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.car1 , .car3 , .car2 , .car4 , .car5{
+    color:#d50000!important ;
+    box-shadow: 2px 4px 5px gray;
+    width: 350px;
+    height: 100px;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+
+.maincar{
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+} 
+.knowus{
+    text-align: center;
+    width: 100%;
+
+    }
+.footer{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background-color:#d50000 ;
+    margin-top: 5px;
+
+
+}
+h4{
+    color: white;
+    text-align: center;
+}
+.btn-primaryy{
+
+}
+    
+    @mediascreen and (max-width:600px){
+        .knowus  {
+            width: 20%; 
+            height: 50px;
+        
+        }
+        
+    }
